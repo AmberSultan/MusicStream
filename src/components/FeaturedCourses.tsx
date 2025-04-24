@@ -39,7 +39,7 @@ function FeaturedCourses() {
                          <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                             <p className='text-lg'>{course.title}</p>
                             <p className='mt-4 text-left text-sm'>{course.description}</p>
-                            <Link href={`/courses/${course.slug}`}>
+{/*                             <Link href={`/courses/${course.slug}`}> */}
                             
                             <button className="mt-10 bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
         <span className="absolute inset-0 overflow-hidden rounded-full">
